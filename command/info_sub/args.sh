@@ -36,7 +36,7 @@ See also:
 _Dbg_do_info_args() {
     if (($# != 0)); then
         _Dbg_errmsg "Arguments are not supported"
-        return 1
+        return 0
     fi
 
     # Print out parameter list.
