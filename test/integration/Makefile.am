@@ -9,6 +9,7 @@ TESTS = \
 	test-bugIFS2       \
 	test-bug-errexit   \
 	test-bug-ksharrays \
+	test-bug-step-subshell \
 	test-condition     \
 	test-debug         \
 	test-delete        \
@@ -47,6 +48,7 @@ SOURCES=check-common.sh.in \
 	test-bug-errexit.in \
 	test-bugIFS.in \
 	test-bug-ksharrays.in \
+	test-bug-step-subshell.in \
 	test-condition.in \
 	test-debug.in \
 	test-delete.in \
