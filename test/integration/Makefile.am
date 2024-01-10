@@ -1,3 +1,5 @@
+LANG = C
+
 TESTS = \
 	test-action        \
 	test-brkpt1        \
